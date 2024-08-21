@@ -1,0 +1,52 @@
+/* BoxContainer.css */
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .box {
+    background: #e1dfdf;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+  }
+  
+  .box img {
+    width: 100%;
+    border-radius: 10px;
+    height: 50%;
+  }
+  
+  .box h4 {
+    margin: 15px 0;
+    color: #333;
+  }
+  
+  .box p {
+    color: #555;
+  }
+  
+  .button {
+    background-color: #ff7300;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
